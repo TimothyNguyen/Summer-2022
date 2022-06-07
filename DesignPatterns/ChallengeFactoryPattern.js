@@ -28,3 +28,15 @@ var car = toyFactory.createToy({
             price : 12,
             name : "honda"
 })
+
+console.log(car)
+console.log(car instanceof ToyCar)
+
+var duck = toyFactory.createToy({
+    toyType: "duck",
+    color: "yellow",
+    price: 5,
+})
+
+console.log(duck)
+console.log(duck instanceof ToyDuck)
